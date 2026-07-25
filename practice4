@@ -1,0 +1,15 @@
+fun main(){
+    println("==Menu==")
+    println("1.Add")
+    println("2.Subtract")
+    println("3.Multiply")
+    println("4.Divide")
+    val choice=readln().toInt()
+    when (choice){
+        1->println("Add")
+        2->println("Subtract")
+        3->println("Multiply")
+        4->println("Divide")
+        else->println("Invalid Choice")
+    }
+}
