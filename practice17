@@ -1,0 +1,11 @@
+fun main(){
+    val secret=7
+    println("Guess a number:")
+    val guess=readln().toInt()
+    if(guess==secret){
+        println("Correct")
+    }
+    else{
+        println("Wrong")
+    }
+}
