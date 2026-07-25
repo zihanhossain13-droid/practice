@@ -1,0 +1,13 @@
+fun main(){
+var factorial=1
+    println("Enter number:")
+    val num=readln().toInt()
+    if(num<0){
+        println("Factorial is not defined for negative numbers.")
+        return
+    }
+    for (i in num downTo 1){
+        factorial*=i
+    }
+    println(factorial)
+}
