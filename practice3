@@ -1,0 +1,14 @@
+fun main(){
+    println("Enter Marks")
+    val marks=readln().toInt()
+    when (marks){
+        in 80..100->println("A+")
+        in 70..79->println("A")
+        in 60..69->println("A-")
+        in 50..59->println("B")
+        in 40..49->println("C")
+        in 33..39->println("D")
+        in 0..32->println("F")
+        else->println("Invalid marks")
+    }
+}
