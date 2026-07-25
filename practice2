@@ -1,0 +1,11 @@
+fun main(){
+    println("Enter Month")
+    val month=readln().toInt()
+    when (month){
+        12,1,2->println("Winter")
+        3,4,5->println("Summer")
+        6,7,8->println("Rainy")
+        9,10,11->println("Autumn")
+        else ->println("Invalid")
+    }
+}
