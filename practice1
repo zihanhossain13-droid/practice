@@ -1,0 +1,10 @@
+fun main(){
+    println("Enter your choice (1-3)")
+    val value=readln().toInt()
+    when (value){
+        1->println("Red")
+        2->println("Green")
+        3->println("Blue")
+        else->println("Invalid Choice")
+    }
+}
