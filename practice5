@@ -1,0 +1,25 @@
+fun main(){
+    println("==Menu==")
+    println("1.Add")
+    println("2.Subtract")
+    println("3.Multiply")
+    println("4.Divide")
+    println("Enter your choice")
+    val choice=readln().toInt()
+    println("Enter first number:")
+    val num1=readln().toInt()
+    println("Enter second number:")
+    val num2=readln().toInt()
+    
+    when (choice){
+        1->println("Result=${num1+num2}")
+        2->println("Result=${num1-num2}")
+        3->println("Result=${num1*num2}")
+        4->if (num2==0){
+        println("Can't divide by zero")}
+        else{
+            println("Result=${num1/num2}")
+        }
+        else->println("Invalid Choice")
+    }
+}
