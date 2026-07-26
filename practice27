@@ -1,0 +1,10 @@
+fun main(){
+    print("Enter Email:")
+    val email=readln().trim()
+    if(email.contains("@") && email.endsWith(".com")){
+        println("Valid Email")
+    }
+    else{
+        println("Invalid Email")
+    }
+}
