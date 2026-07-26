@@ -1,0 +1,11 @@
+fun main(){
+    val students=mutableListOf(
+    "Rahim",
+    "Karim",
+    "Zihan"
+    )
+    students.add("Rifat")
+    students.forEach(){
+        println(it)
+    }
+}
