@@ -1,0 +1,9 @@
+fun main(){
+    var fruit=mutableListOf(
+    "Apple",
+    "Banana",
+    "Mango"
+    )
+    println(fruit.contains("Apple"))
+    println(fruit.contains("Litchi"))
+}
